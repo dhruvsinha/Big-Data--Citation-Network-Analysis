@@ -82,3 +82,23 @@ Random forest is an excellent and versatile method, but it may not be the best c
 Logistic Regression is a popular classification method that is well-suited for high-dimensional data. It can handle both binary and multiclass classification problems and is particularly useful for datasets with sparse features. Additionally, by using cross-validation, we can ensure that our model is both robust and generalizable to new data.
 
 Overall, using Logistic Regression with cross-validation is a reliable and effective approach for our experiment and is likely to yield accurate results.
+
+### Model 3: Citation count prediction
+
+In this part, we are trying to predict the number of citations by looking at paper abstract and titles. The pipeline for this part contains 6 major steps
+1. Tokenizer: Converts abstract/title into a list of words 
+2. StopWordsRemover: Removes stop words from list 
+3. CountVectorizer: Converts words to sparse vector of term frequency counts 
+4. IDF: Computes inverse document frequency weights 
+5. VectorAssembler: Combines into single dense vector column 
+6. GBTRegressor: Performs Gradient-Boosted Tree Regression
+
+After partitioning the dataset into training and test (80:20), we trained the following models and made predictions and score on the test set:
+
+
+| Feature used| RMSE |
+| --- | --- |
+|Title| 169.60 |
+|Abstract|215.84|
+
+
