@@ -76,3 +76,9 @@ After partitioning the dataset into training and test (70:30), we trained the fo
 | Cross Validation (Tune LR with Countvectorizer) | 81.12% |
 | Naive Bayes |78.89% |
 | Random Forest |31.88% |
+
+Random forest is an excellent and versatile method, but it may not be the best choice for high-dimensional sparse data. In this experiment, it is clear that Logistic Regression with cross-validation will be the ideal model for our needs. 
+
+Logistic Regression is a popular classification method that is well-suited for high-dimensional data. It can handle both binary and multiclass classification problems and is particularly useful for datasets with sparse features. Additionally, by using cross-validation, we can ensure that our model is both robust and generalizable to new data.
+
+Overall, using Logistic Regression with cross-validation is a reliable and effective approach for our experiment and is likely to yield accurate results.
