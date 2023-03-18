@@ -2,5 +2,5 @@
 # University of Chicago
 
 ```diff
-# University of Chicago
+- # University of Chicago
 ```
