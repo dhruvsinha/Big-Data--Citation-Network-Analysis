@@ -42,3 +42,21 @@ Some noteworthy observations from our analysis include the fact that fields such
 |:--:| 
 ||
 
+The original dataset contained information on which papers were cited by other papers, which we used to construct an adjacency matrix. Using this matrix, we generated visual graphs where each node represents a paper, and the edges between nodes indicate that one paper cites another. 
+
+By visualizing the citation relationships between papers in this way, we can gain insights into how different research fields are connected and how they evolve over time. This approach enables us to identify important papers, as well as the most influential authors and research groups in specific areas.
+
+Overall, constructing the adjacency matrix from the citation data and generating visual graphs has provided us with a powerful tool for analyzing the connections between papers and identifying patterns in the data. The resulting visualizations allow us to explore the complex relationships between different research fields and better understand how they have evolved over time.
+
+| ![graph_2000.jpg](/images/graph_2000.jpg) | 
+|:--:| 
+||
+
+As we observe the graph, we can see that in the years 2000-2001, the edges between the nodes are relatively short, and the nodes are self-contained, indicating that there were not many interdisciplinary citations during that time period. This finding suggests that there may have been less collaboration between different research fields during the years 2000-2001. 
+
+| ![graph_2010.jpg](/images/graph_2010.jpg) | 
+|:--:| 
+||
+
+In the graph above, we can observe a significant increase in interconnections between different research fields. The edges between the nodes are longer, and we can see that fields such as Biomedical Engineering, Oncology, Healthcare, Social Psychology, and Econometrics are increasingly interacting with Data Science, Computer Vision, and Computer Science. This finding indicates that there has been a growing trend towards interdisciplinary collaboration between different research fields in recent years. 
+
