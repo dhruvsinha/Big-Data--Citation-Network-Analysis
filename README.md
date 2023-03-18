@@ -28,3 +28,10 @@ To identify emerging research topics and trends across different fields, we vect
 
 By using Word2Vec to vectorize the abstracts, we can capture the semantic meaning of the text, making it easier to cluster papers based on their topic. Additionally, KNN clustering allows us to group similar papers together, which can reveal hidden patterns and relationships in the data. By analyzing the most popular categories within each cluster and tracking their changes over time, we can gain insights into how different research fields are evolving and merging over time.
 Overall, the approach of vectorizing the abstracts using Word2Vec and clustering them using KNN has enabled us to identify emerging research topics and trends across different fields. This approach has helped us to gain a deeper understanding of the interconnections between different research areas, and the changes that are taking place over time.
+
+The model can be visualized in the diagram below: 
+
+| ![model.jpg](/images/model.jpg) | 
+|:--:| 
+||
+
