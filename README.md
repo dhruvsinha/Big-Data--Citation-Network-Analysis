@@ -12,3 +12,12 @@ Our analysis has revealed that the intersections between computer science and he
 
 Overall, our research provides valuable insights into the evolving landscape of research fields and highlights the importance of interdisciplinary collaboration in advancing scientific knowledge.
 
+## Files contained
+The project has been structured into three main folders, one for each model. This organizational approach facilitates modularity and enhances the overall manageability of the project. Each folder comprises several PySpark notebooks, which contain detailed comments explaining their purpose.
+
+## Project Set up
+The project was implemented on Google Cloud due to the large size of the original dataset, which was approximately 18 GB. PySpark was used for exploratory data analysis and building machine learning models on the data. To make the data more manageable, we initially converted the original dataset into Parquet files of 1 GB each. All subsequent analyses were performed on these Parquet files.
+
+By converting the original dataset into smaller Parquet files, we could more easily process and manipulate the data. This also allowed us to take advantage of PySpark's distributed computing capabilities, which enabled us to process the data more efficiently. Furthermore, working with Parquet files instead of the original dataset made the analysis more manageable and reduced the risk of data corruption or loss.
+
+Overall, using Google Cloud and PySpark to analyze the Parquet files enabled us to efficiently and effectively conduct exploratory data analysis and build machine learning models on a large and complex dataset. This approach has helped to improve the quality and accuracy of our results while reducing the time required for analysis.
