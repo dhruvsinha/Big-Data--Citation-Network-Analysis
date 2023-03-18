@@ -35,3 +35,10 @@ The model can be visualized in the diagram below:
 |:--:| 
 ||
 
+Some noteworthy observations from our analysis include the fact that fields such as oncology, healthcare, meteorology, medical imaging, and social psychology are increasingly sharing the same cluster with Data Science and Computer Science over time. We get the following result when we cluster for 2018. You can play with these results in clustering_final/res_plot.ipynb. 
+
+
+| ![clustering_result.jpg](/images/clustering_result.jpg) | 
+|:--:| 
+||
+
