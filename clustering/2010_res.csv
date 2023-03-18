@@ -1,0 +1,36 @@
+category,prediction,count,rank
+Wireless network,4,1634,1
+Computer science,4,1298,2
+Base station,4,789,3
+Linear network coding,4,777,4
+Key distribution in wireless sensor networks,4,769,5
+Mathematical optimization,1,5508,1
+Discrete mathematics,1,3066,2
+Convergence (routing),1,2382,3
+Particle swarm optimization,1,921,4
+Econometrics,1,833,5
+Data mining,0,3557,1
+Computer science,0,2811,2
+Mobile computing,0,1347,3
+Programming language,0,1204,4
+Ontology (information science),0,1081,5
+Computer vision,2,11144,1
+Data mining,2,6790,2
+Computer science,2,1799,3
+Iterative reconstruction,2,1092,4
+Pattern recognition,2,1052,5
+Computer vision,6,1553,1
+Computer science,6,848,2
+Control theory,6,805,3
+Biomedical engineering,6,621,4
+Meteorology,6,449,5
+Computer science,3,2314,1
+World Wide Web,3,1987,2
+Data science,3,1846,3
+Data mining,3,1808,4
+Information system,3,1662,5
+Discrete mathematics,5,4368,1
+Integer,5,758,2
+Graph,5,252,3
+Combinatorics,5,228,4
+Graph theory,5,209,5

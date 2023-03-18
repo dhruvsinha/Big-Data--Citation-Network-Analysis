@@ -1,0 +1,37 @@
+category,prediction,count,rank
+Computer science,5,524,1
+Mobile computing,5,249,2
+Wireless network,5,182,3
+Wavelength-division multiplexing,5,150,4
+Protocol Independent Multicast,5,141,5
+Source-specific multicast,5,141,5
+Mathematical optimization,4,1152,1
+Convergence (routing),4,600,2
+Discrete mathematics,4,578,3
+Control theory,4,359,4
+Signal processing,4,355,5
+Discrete mathematics,0,1706,1
+Data mining,0,423,2
+Mathematical optimization,0,358,3
+Computer science,0,319,4
+Programming language,0,296,5
+Data mining,3,1084,1
+Computer science,3,1071,2
+Programming language,3,490,3
+Mathematical optimization,3,415,4
+Information system,3,250,5
+Computer vision,2,4001,1
+Data mining,2,452,2
+Iterative reconstruction,2,407,3
+Computer science,2,355,4
+Pattern recognition,2,249,5
+Discrete mathematics,6,1957,1
+Integer,6,317,2
+Graph theory,6,217,3
+Combinatorics,6,144,4
+Mathematical optimization,6,121,5
+Information system,1,1268,1
+World Wide Web,1,954,2
+Computer science,1,889,3
+Data mining,1,581,4
+Data science,1,370,5

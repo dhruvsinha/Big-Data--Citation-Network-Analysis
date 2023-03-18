@@ -1,0 +1,51 @@
+category,prediction,count,rank
+Computer vision,3,2159,1
+Biomedical engineering,3,446,2
+Computer science,3,404,3
+Meteorology,3,325,4
+Data mining,3,313,5
+Computer science,7,1249,1
+Resource management,7,687,2
+Wireless network,7,603,3
+Mobile computing,7,451,4
+Base station,7,446,5
+Mathematical optimization,8,2266,1
+Discrete mathematics,8,1363,2
+Data mining,8,1307,3
+Convergence (routing),8,877,4
+Computer science,8,742,5
+Computer science,0,544,1
+Transmitter,0,459,2
+Control theory,0,326,3
+Topology,0,246,4
+Mathematical optimization,0,232,5
+Mathematical optimization,2,1936,1
+Convergence (routing),2,1233,2
+Control theory,2,609,3
+Discrete mathematics,2,447,4
+Lyapunov function,2,409,5
+Data mining,1,3291,1
+Computer science,1,1093,2
+Data science,1,913,3
+Computer vision,1,884,4
+Recommender system,1,642,5
+Social psychology,6,1174,1
+Computer science,6,1099,2
+Data science,6,1072,3
+World Wide Web,6,586,4
+Information system,6,465,5
+Discrete mathematics,4,2380,1
+Integer,4,454,2
+Graph,4,266,3
+Topology,4,127,4
+Combinatorics,4,99,5
+Computer science,5,1034,1
+Data science,5,753,2
+Data mining,5,665,3
+World Wide Web,5,529,4
+Architecture,5,383,5
+Computer vision,9,4983,1
+Data mining,9,1288,2
+Pattern recognition,9,991,3
+Computer science,9,592,4
+Kernel (linear algebra),9,563,5
