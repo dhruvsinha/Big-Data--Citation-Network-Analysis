@@ -101,4 +101,4 @@ After partitioning the dataset into training and test (80:20), we trained the fo
 |Title| 169.60 |
 |Abstract|215.84|
 
-
+This result is surprising. Abstract contains more information than the title. Therefore, we were expecting that RMSE for Abstract will be lower than RMSE for title. 
