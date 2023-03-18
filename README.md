@@ -1,6 +1,6 @@
 # Citation Network Analysis
 
-## Abstract
+## Introduction
 In this project, we aim to analyze the interconnections between different fields of research and understand which fields are merging and which are diverging over time. We are using a citation dataset extracted from DBLP, ACM, MAG (Microsoft Academic Graph), which spans from 1936 to early 2022 and contains 5,259,858 papers before cleaning, in JSON format hosted on aminer.com, with a size of approximately 18 GB unprocessed.
 
 We have developed three models to achieve our research objectives:
