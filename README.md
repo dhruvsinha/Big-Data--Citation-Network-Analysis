@@ -60,3 +60,19 @@ As we observe the graph, we can see that in the years 2000-2001, the edges betwe
 
 In the graph above, we can observe a significant increase in interconnections between different research fields. The edges between the nodes are longer, and we can see that fields such as Biomedical Engineering, Oncology, Healthcare, Social Psychology, and Econometrics are increasingly interacting with Data Science, Computer Vision, and Computer Science. This finding indicates that there has been a growing trend towards interdisciplinary collaboration between different research fields in recent years. 
 
+### Model 2: Multiclass text classification
+Here, we were trying to predict paper category from using abstracts. The model pipeline has four important steps- 
+1. regexTokenizer: Tokenization with regular expression 
+2. stopwordsRemover: Remove stop words 
+3. StringIndexer that encodes a string column of labels to a column of label indices. 
+4. Count vectors ("document term vectors") or TF-IDF
+
+After partitioning the dataset into training and test (70:30), we trained the following models and made predictions and score on the test set
+
+| Model | Accuracy |
+| --- | --- |
+| Logistic Regression with Count Vectorizer | 80.60% |
+| Logistic Regression with TF-IDF |79.77% |
+| Cross Validation (Tune LR with Countvectorizer) | 81.12% |
+| Naive Bayes |78.89% |
+| Random Forest |31.88% |
